@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+body{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,1)),url(temp.webp);
+    background-size: cover;
+    margin: 10px;
+}
+.box{
+    width: 450px;
+     background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,1));s
+    background-color:darkgrey;
+    padding: 70px 40px;
+    position: absolute;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    transition: transrorm 0.7s ;
+    background-position: center;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 30%;
+    
+}
+
+
+.box:hover{
+    transform: translateX(2px);
+     transform: translateZ(3px);
+}
+.container{
+    width: 45%;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+input:focus{
+    border-color: red;
+}
+
+.heading{
+    color: white;
+    font-size: 50px;
+
+}
